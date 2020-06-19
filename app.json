@@ -2,6 +2,7 @@
   "expo": {
     "name": "test",
     "slug": "test",
+    "sdkVersion": "37.0.0",
     "platforms": [
       "ios",
       "android",
@@ -22,7 +23,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.pavel.dreamstracker",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pavel.dreamstracker",
+      "versionCode": 1
     }
   }
 }
